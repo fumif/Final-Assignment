@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>jQuery generator</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="styles/TimeCircles.css" >  
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+		<script src="scripts/TimeCircles.js" ></script>
+		<script src="scripts/jquery.smoothScroll.js"></script>
+		<script src="scripts/main.js"></script>
+	</head>
+		<body>
+			<header>
+				<div class="container">
+					<ul id="mobile">
+						<li><img src="images/title.png"></li>
+						<li><i class="fa fa-bars fa-2x"></i>
+						<ul id="bar">
+							<li><a href="#about">about</li>
+							<li><a href="#newsletter">newsletter</li>
+						</ul>
+						</li>
+					</ul>
+					<ul id="nav">
+						<li><a href="#about">about</a></li>
+						<li><a href="#newsletter">newsletter</a></li>
+					</ul>
+				</div>
+				
+				<div id="main" class="container">
+					<img src="images/title.png" id="title">
+					<h1>Frustrated with jQuery? This tool will help.</h1>
+					<h2>It’s build for lazy jQuery coders. This will save a lot of time.</h2>
+				</div>
+				<div id="info" class="container">
+					<div id="count" data-date="2015-01-01 00:00:00"></div>
+					<a href="#newsletter" id="button">Sign Up For The Newsletter!</a>
+				</div>
+				<div class="headerImage" class="container">
+					<img src="images/headerImage.jpg">
+				</div>
+				
+			</header>
+			<aside id="about">
+				<div class="container">
+					<ul>
+						<li>
+							<img src="images/code.png">
+							<h2>Easy Coding</h2>
+							<p>Select the functions, then generate the code automatically.<br>You don’t have to do any complicated coding by yourself.</p>
+						</li>
+						<li>
+							<img src="images/plugin.png">
+							<h2>Get plugins easily</h2>
+							<p>It’s connected to plugins.jquery.com. 
+							You can search many jQuery plugins with this tool. <br>The plugin will be downloaded automatically.</p>
+						</li>
+						<li>
+							<img src="images/free.png">
+							<h2>It's Free!</h2>
+							<p>We NEVER charge money from you. <br>
+							Because free is the BEST!</p>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<section id="newsletter">
+				<div class="container">
+					<form>
+						<h1>Sign up for the newsletter</h1>
+						<ul>
+							<li><input id="email" type="email" placeholder="Email Address"></li>
+							<li><input id="submit" type="submit" value="SUBMIT"></li>
+						</ul>
+					</form>
+				</div>
+			</section>
+			<footer>
+				<div class="container">
+					<div id="copyrights">&copy; jQuery Generator 2014</div>
+					<div id="icons">
+						<ul>
+							<li><a href=""><img src="images/facebook.png"></a></li>
+							<li><a href=""><img src="images/twitter.png"></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</body>
+</html>
