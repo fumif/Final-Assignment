@@ -89,8 +89,8 @@
 jQuery( function( $ ) {
 	$( window ).on( 'load', function() {
 		$( 'a[href^="#"]' ).SmoothScroll( {
-			duration : 1200,
-			easing : 'easeInOutQuint'
+			duration : 1000,
+			easing : 'easeOutQuint'
 		} );
 	} );
 

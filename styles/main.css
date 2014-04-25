@@ -7,6 +7,7 @@
 body{
 	font-family: 'Segoe UI', sans-serif;
 	font-size: 18px;
+	margin:0;
 }
 
 h1{
@@ -114,6 +115,7 @@ aside {
 	height: 557px;
 	background-color: #f19b7a;
 }
+
 aside h2 {
 	color: #000;
 	padding: 25px 0;
@@ -201,329 +203,333 @@ footer #icons {
 	list-style-type: none;
 }
 
+
+
 @media screen and (min-width: 480px) and (max-width: 900px) {
+
 
 	body{
 		font-size: 16px;
 	}
-
+	
 	h1{
-	font-size: 30px;
-	font-weight: 600;
+		font-size: 36px;
 	}
-
-	h2 {
-		font-size: 20px;
-	}
-
-
+	
+	
 	.container {
-		width:90%;
-	}
-
-
-	header {
-		max-width: 100%;
-		height: 1080px;
-		padding: 10px;
-	}
-
-	#main {
-		padding-top: 0;
-	}
-
-	#title {
-		width: 70%;
-		height: 70%;
-	}
-
-	#count {
-		width: 70%;
-	}
-
-
-	ul#nav li {
-		padding: 0;
+		width: 90%;
 	}
 
 	#nav li a {
 		font-size: 18px;
 	}
-
+	
 	#main {
-		padding-top: 10px;
-	}
-
-
-	#button {
-		width: 400px;
-		height:auto;
-		margin: 0 auto;
-		padding: 10px;
-		font-size: 18px;
-	}
-
-	#count {
-		max-width: 70%;
-	}
-
-	#headerImage {
-		margin: 30px;
-	}
-
-	aside {
 		float: left;
-		margin: 0 auto;
+		width: 100%;
+		padding-top: 15px;
+		text-align: center;
+	}
+	
+	#title {
+		width: 70%;
+	}
+
+	#info {
+		clear: both;
+	}
+	
+	#count {
+		float: left;
+		margin: 30px 100px;
+		width: 500px;
+	}
+	
+	#button {
+		clear:both;
+		margin-top: 30px;
+		padding: 10px;
+		font-size: 20px;
+	}
+	
+	
+	.headerImage {
+		clear: both;
+		padding: 15px;
+		text-align: center;
+	}
+	
+	.headerImage img{
+		max-width: 100%;
+	}
+	
+	#main h1 {
+		clear: both;
+	}
+	
+	
+	aside {
 		height: auto;
+		background-color: #f19b7a;
 	}
 
 	aside h2 {
-		padding: 0;
+		color: #000;
+		padding: 25px 0;
 	}
-
-
+	
+	
+	
 	aside ul li {
-		float: left;
-		margin: 5px;
+		clear: both;
 		width: 100%;
 		height: auto;
+		margin-top: 10px;
 		padding: 10px;
+		
 	}
-
+	
+	
 	section {
-		max-width: 100%;
 		height:auto;
-		padding-top: 10px;
 	}
-
+	
 	form ul li {
-		padding: 10px;
+		padding: 10px 0;
+		list-style-type:none;
 	}
-
+	
 	form h1 {
 		color: #f2e0a0;
+		font-weight: bold;
 	}
-
+	
+	
+	#submit {
+		width: 140px;
+		height: 40px;
+		background-color: #f19b7a;
+		border: 0;
+		font-weight: bold;
+		color: #53324f;
+	}
+	
 	#email {
-		padding: 10px;
-		max-width: 70%;
-		height: 45px;
+		height: auto;
+		padding:15px 10px;
 	}
 
 	footer {
 		height: auto;
 	}
-
+	
 	footer #copyrights {
 		float: left;
-		padding: 25px 10px;
+		padding: 20px;
 		width: 320px;
 		color: #f2e0a0;
 	}
-
-
+	
+	
 	footer #icons {
 		float: right;
 	}
-
+	
 	#icons li {
-		float: left;
-		margin:0 10px 0;
-		padding:0;
-		list-style-type: none;
+		padding: 5px;
 	}
-
 
 }
 
+
 	@media screen and (min-width: 320px) and (max-width: 480px) {
+		
+			body{
+				font-size: 16px;
+			}
 
-		body{
-			font-size: 16px;
-		}
+			h1{
+				font-size:24px;
+				font-weight: 700;
+			}
 
-		h1{
-			font-size:30px;
-			font-weight: 700;
-		}
-
-		h2 {
-			font-size: 20px;
-		}
-
-
-		.container {
-			width:90%;
-		}
+			h2 {
+				font-size: 18px;
+			}
 
 
-		header {
-			max-width: 100%;
-			height: auto;
-			padding: 10px;
-		}
-
-		#main {
-			padding: 10px;
-		}
-
-		#title {
-			display:none;
-		}
-
-		#headerImage {
-			width:90%;
-			height: 90%;
-		}
-
-		ul#mobile {
-			float: left;
-			display: block;
-			margin: 0;
-			padding: 0;
-			max-width: 100%;
-			height: auto;
-		}
-
-		#mobile li {
-			display: block;
-			max-width: 100%;
-			list-style-type: none;
-		}
-		#mobile li:first-child{
-			float: left;
-			width: 70%;
-		}
-
-		#mobile li i {
-			position: relative;
-			float: right;
-			text-align: right;	
-			cursor: pointer;
-		}
-
-		#mobile li img {
-			max-width: 100%;
-			height: auto; 
-		}
-
-		ul#bar {
-			display: none;
-			position: absolute;
-			float: right;
-			top:45px;
-			right: 10px;
-			padding: 10px 5px;
-			width: 120px;
-			background-color: rgba(240,117,110,0.7);
-		}
-
-		ul#bar li {
-			padding: 0;
-			margin: 0;
-			list-style-type: none;
-		}
-
-		ul#bar li a {
-			font-size: 16px;
-			font-weight: 700;
-			text-decoration: none;
-			color: #fff;
-			text-transform: uppercase;
-		}
-
-		ul#nav li {
-			display: none;
-		}
-
-		 
-		#main h1 {
-			clear: both;
-		}
+			.container {
+				width:90%;
+			}
 
 
-		#button {
-			padding: 5px 10px; 
-			width: 100%;
-			height: 45px;
-			margin: 0;
-			font-size: 18px;
-		}
+			header {
+				max-width: 100%;
+				height: auto;
+				padding: 10px;
+			}
 
-		#count {
-			display: none;
-			width: 0;
-		}
+			#main {
+				padding: 10px;
+			}
+
+			#title {
+				display:none;
+			}
+
+			#headerImage {
+				width:90%;
+				height: 90%;
+			}
+
+			ul#mobile {
+				float: left;
+				display: block;
+				margin: 0;
+				padding: 0;
+				max-width: 100%;
+				height: auto;
+			}
+
+			#mobile li {
+				display: block;
+				max-width: 100%;
+				list-style-type: none;
+			}
+			#mobile li:first-child{
+				float: left;
+				width: 70%;
+			}
+
+			#mobile li i {
+				position: relative;
+				float: right;
+				text-align: right;	
+				cursor: pointer;
+			}
+
+			#mobile li img {
+				max-width: 100%;
+				height: auto; 
+			}
+
+			ul#bar {
+				display: none;
+				position: absolute;
+				float: right;
+				top:45px;
+				right: 10px;
+				padding: 10px 5px;
+				width: 120px;
+				background-color: rgba(240,117,110,0.7);
+			}
+
+			ul#bar li {
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+			}
+
+			ul#bar li a {
+				font-size: 16px;
+				font-weight: 700;
+				text-decoration: none;
+				color: #fff;
+				text-transform: uppercase;
+			}
+
+			ul#nav li {
+				display: none;
+			}
+
+			 
+			#main h1 {
+				clear: both;
+			}
 
 
-		aside {
-			height: auto;
-		}
+			#button {
+				padding: 5px 10px; 
+				width: 100%;
+				height: 45px;
+				margin: 0;
+				font-size: 18px;
+			}
 
-		aside h2 {
-			padding: 0;
-		}
-
-
-		aside ul li {
-			margin-top: 5px;
-			margin-left: 0;
-			max-width: 100%;
-			height: auto;
-		}
-
-		section {
-			max-width: 100%;
-			height:auto;
-			padding-top: 10px;
-		}
-
-		form ul li {
-			padding: 10px;
-		}
-
-		form h1 {
-			color: #f2e0a0;
-		}
-
-		#email {
-			padding: 10px;
-			max-width: 100%;
-			height: 45px;
-		}
-
-		#submit {
-			max-width: 90%;
-		}
-
-		footer {
-			height: auto;
-		}
-
-		footer #copyrights {
-			float: left;
-			padding-top: 15px;
-			max-width: 50%;
-			color: #f2e0a0;
-		}
+			#count {
+				display: none;
+				width: 0;
+			}
 
 
-		footer #icons {
-			float: right;
-			width: 130px;
-		}
+			aside {
+				height: auto;
+			}
 
-		#icons li {
-			float: left;
-			margin:0;
-			padding: 0;
-			list-style-type: none;
-		}
-
-		#icons li img {
-			max-width: 70%;
-			height: auto;
-		}
+			aside h2 {
+				padding: 0;
+			}
 
 
-	}
+			aside ul li {
+				margin-top: 5px;
+				margin-left: 0;
+				max-width: 100%;
+				height: auto;
+			}
+
+			section {
+				max-width: 100%;
+				height:auto;
+				padding-top: 10px;
+			}
+
+			form ul li {
+				padding: 10px;
+			}
+
+			form h1 {
+				color: #f2e0a0;
+			}
+
+			#email {
+				padding: 10px;
+				max-width: 100%;
+				height: 45px;
+			}
+
+			#submit {
+				max-width: 90%;
+			}
+
+			footer {
+				height: auto;
+			}
+
+			footer #copyrights {
+				float: left;
+				padding-top: 15px;
+				max-width: 50%;
+				color: #f2e0a0;
+			}
+
+
+			footer #icons {
+				float: right;
+				max-width: 50%;
+			}
+
+			#icons li {
+				float: left;
+				margin:0;
+				padding: 5px;
+				list-style-type: none;
+			}
+
+			#icons li img {
+				max-width: 70%;
+				height: auto;
+			}
+
+}
